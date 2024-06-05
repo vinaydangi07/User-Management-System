@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "name": "Vinay Dangi",
+      "email": "vinaydangi145@gmail.com",
+      "role": "Admin",
+      "id": "d2df"
+    },
+    {
+      "name": "Vivek Sharma",
+      "email": "vivek123@gmail.com",
+      "role": "User",
+      "id": "491e"
+    },
+    {
+      "id": "df33",
+      "name": "Atul Dangi",
+      "email": "atuldangi12@gmail.com",
+      "role": "User"
+    },
+    {
+      "name": "Abhishek Sharma",
+      "email": "abhi@gmail.com",
+      "role": "User",
+      "id": "db2f"
+    },
+    {
+      "id": "efa2",
+      "name": "Vikas Sharma",
+      "email": "vikasdangi12@gmail.com",
+      "role": "User"
+    },
+    {
+      "id": "a70d",
+      "name": "mayank",
+      "email": "mayank123@gmail.com",
+      "role": "Admin"
+    },
+    {
+      "id": "7052",
+      "name": "Mayank",
+      "email": "mayank@gmail.com",
+      "role": "User"
+    },
+    {
+      "id": "c535",
+      "name": "Aman Dangi",
+      "email": "amandangi@gmail.com",
+      "role": "Admin"
+    },
+    {
+      "name": "Viharsh",
+      "email": "vinaydangi145@gmail.com",
+      "role": "Admin",
+      "id": "275f"
+    },
+    {
+      "id": "dc92",
+      "name": "Akash",
+      "email": "akash12@gmail.com",
+      "role": "User"
+    },
+    {
+      "id": "9435",
+      "name": "Vishal",
+      "email": "viisal@gmail.com",
+      "role": "User"
+    },
+    {
+      "id": "9f78",
+      "name": "Ravi Kumar",
+      "email": "ravi0264@gmail.com",
+      "role": "User"
+    },
+    {
+      "id": "3b64",
+      "name": "Anil Kumar",
+      "email": "anilKumar@gmail.com",
+      "role": "User"
+    },
+    {
+      "id": "1c8f",
+      "name": "Arun",
+      "email": "arun@gmail.com",
+      "role": "Admin"
+    }
+  ]
+}

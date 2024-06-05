@@ -1,0 +1,55 @@
+<h1 mat-dialog-title>Add User Form</h1>
+<div mat-dialog-content>
+ 
+   <form [formGroup]="userForm">
+
+    <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput formControlName="name">
+      </mat-form-field>
+
+      <div *ngIf="userForm.get('name')?.invalid && (userForm.get('name')?.dirty || userForm.get('name')?.touched)"
+      class="alert alert-danger">
+      Name is required !
+    </div>
+
+      
+    <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email">
+      </mat-form-field>
+
+      <div *ngIf="userForm.get('email')?.invalid && (userForm.get('email')?.dirty || userForm.get('email')?.touched)"
+      class="alert alert-danger">
+      email is required !
+    </div>
+
+      <mat-form-field>
+        <mat-label>Role</mat-label>
+        <mat-select formControlName="role">
+          <mat-option value="Admin">Admin</mat-option>
+          <mat-option value="User">User</mat-option>
+        </mat-select> 
+      </mat-form-field>
+
+      <div *ngIf="userForm.get('role')?.invalid && (userForm.get('role')?.dirty || userForm.get('role')?.touched)"
+      class="alert alert-danger">
+      role is required !
+    </div>
+  
+   </form>
+     
+</div>
+
+<div mat-dialog-actions [align]="'end'">
+    <button  mat-raised-button color="warn" mat-dialog-close="close">Close</button>
+    <button  mat-raised-button color="primary" [disabled]="userForm.invalid" (click)="adduser()" >{{ actionBtn }}</button>
+</div> 
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vinaydangi07/User-management-System.git
+git push -u origin main
